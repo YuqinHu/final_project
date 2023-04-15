@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Loging from 'pages/LoginPage'
+import Login from './pages/LoginPage'
+import Register from './pages/RegisterPage';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -15,8 +15,12 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: "/login ",
-    element: <App/>,
+    path: "login",
+    element: <Login/>,
+  },
+  {
+    path: "register",
+    element: <Register/>,
   },
 ]);
 
