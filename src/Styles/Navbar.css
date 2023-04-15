@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   scroll-behavior: smooth;
-  background: #ffffff;
+  background: whiteColor;
   font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-color: #fff;
+  border-color: whiteColor;
 }
 
 a {
@@ -32,7 +32,7 @@ a {
   background-color: #545454;
   background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
   transition: background-color 0.3s ease;
-  color: white;
+  color: whiteColor;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -67,7 +67,7 @@ a {
   position: relative;
   width: 0;
   height: 0;
-  color: #fff;
+  color: whiteColor;
   background-image: url("https://albawarditools.com/wp-content/uploads/2019/08/construction-tools-dark-background.jpg");
   background-size: cover;
   animation: 1s grow ease forwards;

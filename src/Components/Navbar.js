@@ -7,6 +7,7 @@ import "../Styles/Navbar.css"
 
 
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
